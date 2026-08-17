@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and generated artifacts
+data/*.csv
+data/*.zip
+models/*.joblib
+models/*.json
+reports/figures/*.png
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
